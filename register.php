@@ -40,6 +40,14 @@
 
                                     <!-- Text input-->
                                     <div class="form-group  row required">
+                                        <label class="col-md-4 control-label">Nick Name <sup>*</sup></label>
+                                        <div class="col-md-6">
+                                            <input name="nick_name" placeholder="Last Name" class="form-control input-md" type="text">
+                                        </div>
+                                    </div>
+
+                                    <!-- Text input-->
+                                    <div class="form-group  row required">
                                         <label class="col-md-4 control-label">Phone Number <sup>*</sup></label>
                                         <div class="col-md-6">
                                             <input name="phone_number" placeholder="Phone Number" class="form-control input-md" type="text">            
@@ -52,12 +60,12 @@
                                         <div class="col-md-6">
                                             <div class="radio">
                                                 <label for="Gender-0">
-                                                    <input name="Gender" id="Gender-0" value="1" checked="checked" type="radio"> Male 
+                                                    <input name="Gender" id="Gender-0" value="male" checked="checked" type="radio"> Male 
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label for="Gender-1">
-                                                    <input name="Gender" id="Gender-1" value="2" type="radio"> Female 
+                                                    <input name="Gender" id="Gender-1" value="female" type="radio"> Female 
                                                 </label>
                                             </div>
                                         </div>
@@ -67,19 +75,19 @@
                                     <div class="form-group row">
                                         <label class="col-md-4 control-label" for="textarea">About Yourself</label>
                                         <div class="col-md-6">
-                                            <textarea class="form-control" id="textarea" name="textarea">About Yourself</textarea>
+                                            <textarea class="form-control" id="textarea" name="about_seller">About Yourself</textarea>
                                         </div>
                                     </div>
                                     <div class="form-group  row required">
                                         <label for="inputEmail3" class="col-md-4 control-label">Email <sup>*</sup></label>
                                         <div class="col-md-6">
-                                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                            <input type="email" class="form-control" id="inputEmail3" name="email" placeholder="Email">
                                         </div>
                                     </div>
                                     <div class="form-group  row required">
                                         <label for="inputPassword3" class="col-md-4 control-label">Password </label>
                                         <div class="col-md-6">
-                                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password">
                                                 <small id="passwordHelpBlock" class="form-text text-muted"> At least 5 characters </small>
                                         </div>
                                     </div>
@@ -95,11 +103,12 @@
                                                 </div>
                                             </div>
                                             <div style="clear:both"></div>
-                                            <a class="btn btn-primary" href="#">Register</a>
+                                            <a class="btn btn-primary" name="btn_register" type="submit">Register</a>
                                         </div>
                                     </div>
                                 </fieldset>
                             </form>
+                            <?php include 'phpquery/register_seller.php' ?>
                         </div>
                     </div>
                 </div>
@@ -138,7 +147,7 @@
 </div>
 <!-- /.main-container -->
 
-<?php	
+<?php
 	include 'templates/home_extra_content.php';
 	include 'footer.php'
 ?>
