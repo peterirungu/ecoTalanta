@@ -17,7 +17,6 @@
     <!--/.about-intro -->
 </div>
 <!-- /.intro-inner -->
-
 <div class="main-container inner-page">
     <div class="container">
         <div class="section-content">
@@ -26,7 +25,6 @@
                     <h1 class="text-center title-1"> What Makes Us Special </h1>
                     <hr class="center-block small text-hr">
                 </div>
-
                 <div class="col-sm-6">
                     <div class="text-content has-lead-para text-left">
                         <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -48,7 +46,7 @@
                             vitae auctor rhoncus </p>
                     </div>
                 </div>
-                <div class="col-sm-6"><img src="images/info.png" alt="imfo" class="img-responsive"></div>
+                <div class="col-sm-6"><img src="images/4.jpg" alt="imfo" class="img-responsive"></div>
             </div>
         </div>
     </div>

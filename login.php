@@ -68,7 +68,7 @@
                 </div>
                 <div class="login-box-btm text-center">
                     <p> Don't have an account? <br>
-                        <a href="signup.html"><strong>Sign Up !</strong> </a></p>
+                        <a href="register.php"><strong>Sign Up !</strong> </a></p>
                 </div>
             </div>
         </div>

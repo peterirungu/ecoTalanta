@@ -2,8 +2,6 @@
 	include 'header.php';
 	include 'nav_auth.php';
 ?>
-
-
     <div class="main-container">
         <div class="container">
             <div class="row">
@@ -59,7 +57,7 @@
                                     <div class="panel-collapse collapse show" id="TerminateAccount">
                                         <ul class="acc-list">
                                             <li>
-                                                <a href="#"><i class="icon-cancel-circled "></i> Logout </a>
+                                                <a href="index.php"><i class="icon-cancel-circled "></i> Logout </a>
                                             </li>
                                         </ul>
                                     </div>

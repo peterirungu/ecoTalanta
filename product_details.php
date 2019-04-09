@@ -2,16 +2,13 @@
 	include 'header.php';
 	include 'nav.php'
 ?>
-
-
 <div class="main-container">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-
-
-                    <div class="pull-right backtolist"><a href="products.php"> <i
-                            class="fa fa-angle-double-left"></i> Back to Products</a></div>
+                    <div class="pull-right backtolist">
+                        <a href="products.php"><i class="fa fa-angle-double-left"></i> Back to Products</a>
+                    </div>
 
                 </div>
             </div>
@@ -21,7 +18,7 @@
                 <div class="col-md-9 page-content col-thin-right">
                     <div class="inner inner-box ads-details-wrapper">
                         <h1 class="auto-heading">
-                        	<span class="auto-title left">Exclusive and modern luxury apartment </span> 
+                        	<span class="auto-title left">Exclusive and eco Friendly Product </span> 
                         	<span class="auto-price pull-right"> KES 25</span>
                         </h1>
                         <span class="info-row"> <span class="date"><i class=" icon-clock"> </i> Today 1:21 pm </span> - <span
@@ -31,18 +28,18 @@
                         <div class="ads-image">
                             <h1 class="pricetag"> KES 25</h1>
                             <ul class="bxslider">
-                                <li><img src="images/item/tp-big/Image00014.jpg" alt="img"/></li>
-                                <li><img src="images/item/tp-big/Image00015.jpg" alt="img"/></li>
-                                <li><img src="images/item/tp-big/Image00013.jpg" alt="img"/></li>
+                                <li><img src="img/10.jpg" alt="img"/></li>
+                                <li><img src="img/10.jpg" alt="img"/></li>
+                                <li><img src="img/10.jpg" alt="img"/></li>
                             </ul>
-                            <div id="bx-pager">
+                            <!-- <div id="bx-pager">
                                 <a class="thumb-item-link" data-slide-index="0" href="#"><img
                                         src="images/item/tp/Image00014.jpg" alt="img"/></a>
                                 <a class="thumb-item-link" data-slide-index="1" href="#"><img
                                         src="images/item/tp/Image00015.jpg" alt="img"/></a>
                                 <a class="thumb-item-link" data-slide-index="2" href="#"><img
                                         src="images/item/tp/Image00013.jpg" alt="img"/></a>
-                            </div>
+                            </div> -->
                         </div>
                         <!--ads-image-->
 

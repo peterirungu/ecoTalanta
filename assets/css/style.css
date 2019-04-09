@@ -16,6 +16,11 @@ html {
 
 body {
   margin: 0; }
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 800;
+    font-style: oblique;
+}
 
 article,
 aside,
@@ -1707,7 +1712,7 @@ label {
       -moz-box-sizing: border-box;
            box-sizing: border-box;
       color: #333;
-      font-size: 12px;
+      font-size: 16px;
       height: 40px;
       line-height: 1;
       padding: 12px 10px; }
@@ -2447,7 +2452,7 @@ label {
 
 .page-bottom-info-inner {
   background-size: cover;
-  padding: 75px 0; }
+  padding: 55px 0; }
 
 .page-bottom-info-content {
   max-width: 900px;
@@ -4507,7 +4512,7 @@ label.error {
     padding-bottom: 15px; }
 
 .icon-color-1 {
-  color: #ff9113; }
+  color: #4fcd72; }
 
 .icon-color-2 {
   color: #e6c840; }
