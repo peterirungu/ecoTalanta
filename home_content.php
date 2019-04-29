@@ -1,8 +1,11 @@
 <div class="main-container">
     <div class="container">
-        <div class="row">        
+        <div class="row">  
+            <!-- -----sidebar Here-->
+            <?php include 'templates/products_sidebar.php' ?>
+            <!-- -----sidebar Here-->       
 
-            <div class="col-md-9 page-content col-thin-left">
+            <div class="col-md-6 page-content col-thin-left">
                 <div class="category-list make-grid">
                     <!--/.tab-box-->
                     <div class="listing-filter">
@@ -13,7 +16,9 @@
                                         <div class="row">
                                             <div class="col-md-2 no-padding photobox">
                                             <div class="add-image">                                          
-                                                <a href="product_details.php"><img class="thumbnail no-margin" src="img/1.jpg" alt="img"></a>
+                                                <a href="product_details.php">
+                                                    <img class="thumbnail no-margin" height=100 src="img/1.jpg" alt="img">
+                                                </a>
                                             </div>
                                             </div>
                                             <!--/.photobox-->

@@ -1,5 +1,5 @@
 <div class="header">
-	<nav class="navbar  fixed-top navbar-site navbar-light navbar-expand-md" role="navigation" style="background-color: rgb(79, 205, 114);">
+	<nav class="navbar  fixed-top navbar-site navbar-light navbar-expand-md" role="navigation" style="background: linear-gradient(158deg, #29b765 44%, #2ECC71 85%) no-repeat 0 0 #16A085;">
 		<div class="container">
             <div class="navbar-identity">
     			<a href="index.php" class="navbar-brand logo logo-title">

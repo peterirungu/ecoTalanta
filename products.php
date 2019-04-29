@@ -272,7 +272,6 @@
     <div class="row">
         <div class="col-md-2 no-padding photobox">
         <div class="add-image">
-            <span class="photo-count"><i class="fa fa-camera"></i> 2 </span>  
             <a href="product_details.php"><img class="thumbnail no-margin" src="img/17.jpg" alt="img"></a>
         </div>
         </div>

@@ -32,19 +32,10 @@
                                 <li><img src="img/10.jpg" alt="img"/></li>
                                 <li><img src="img/10.jpg" alt="img"/></li>
                             </ul>
-                            <!-- <div id="bx-pager">
-                                <a class="thumb-item-link" data-slide-index="0" href="#"><img
-                                        src="images/item/tp/Image00014.jpg" alt="img"/></a>
-                                <a class="thumb-item-link" data-slide-index="1" href="#"><img
-                                        src="images/item/tp/Image00015.jpg" alt="img"/></a>
-                                <a class="thumb-item-link" data-slide-index="2" href="#"><img
-                                        src="images/item/tp/Image00013.jpg" alt="img"/></a>
-                            </div> -->
                         </div>
                         <!--ads-image-->
-
                         <div class="Ads-Details">
-                            <h5 class="list-title"><strong>Ads Detsils</strong></h5>
+                            <h5 class="list-title"><strong>Product Details</strong></h5>
 
                             <div class="row">
                                 <div class="ads-details-info col-md-12">
@@ -52,9 +43,9 @@
                                         processor alongside 1GB RAM and 8-megapixel rear camera. </p>                                 
                                 </div>                               
                             </div>
-                            <div class="content-footer text-left">
-                            	<a class="btn  btn-default" data-toggle="modal" href="#contactAdvertiser">
-                            		<i class=" icon-mail-2"></i> Send a message </a> <a class="btn  btn-info">
+                            <div class="content-footer text-center">
+                            	<a class="btn  btn-info" data-toggle="modal" href="#contactAdvertiser">
+                            		<i class=" icon-mail-2"></i> Place an Order </a> <a class="btn  btn-success">
                             		<i class=" icon-phone-1"></i> 01680 531 352 </a>
                             </div>
                         </div>
@@ -69,8 +60,8 @@
                                 <div class="cell-media"><img src="images/users/5.jpg" alt=""></div>
                                 <div class="cell-content">
                                     <h5 class="title">Posted by</h5>
-                                    <span class="name"><a href="public_seller_profile.php">David Jhone Jr. </a></span>
-                                    <span class="rating">top rated</span>
+                                    <span class="name"><a href="public_seller_profile.php">Peter Mwangi </a></span>
+                                    <span class="rating">Active seller</span>
                                 </div>
                             </div>
                             <div class="card-content">
@@ -81,7 +72,7 @@
                                             <span>Location</span>
                                         </div>
                                         <div class="col to">
-                                                <span>USA</span>
+                                                <span>Nairobi, Kenya</span>
                                         </div>
                                     </div>
                                     <div class="grid-col">
@@ -94,7 +85,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="grid-col">
+                                    <!-- <div class="grid-col">
                                         <div class="col from">
                                             <i class="fas fa-clock"></i>
                                             <span>Last Online</span>
@@ -102,7 +93,7 @@
                                         <div class="col to">
                                             <span>3 Hours ago</span>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 
