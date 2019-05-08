@@ -28,15 +28,15 @@
                                 <!-- /.collapse-box  -->
                                 <div class="collapse-box">
                                     <h5 class="collapse-title">Active Seller Account 
-                                        <a href="#MyAds" aria-expanded="true"  data-toggle="collapse" class="pull-right">
+                                        <a href="#MyProducts" aria-expanded="true"  data-toggle="collapse" class="pull-right">
                                             <i class="fa fa-angle-down"></i>
                                         </a>
                                     </h5>
 
-                                    <div class="panel-collapse collapse show" id="MyAds">
+                                    <div class="panel-collapse collapse show" id="MyProducts">
                                         <ul class="acc-list">
                                             <li>
-                                                <a href="#"><i class="icon-docs"></i> My Product ads</a>
+                                                <a href="seller_product_home.php"><i class="icon-docs"></i> My Product ads</a>
                                             </li>
                                             <li>
                                                 <a href="#"><i class="icon-heart"></i> Orders </a>

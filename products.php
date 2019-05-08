@@ -299,34 +299,11 @@
     </div>
 </div>
 <!--/.item-list-->
-
-
 </div>
 </div>
 </div>
 <div class="tab-box  save-search-bar text-center"><a href="#"> <i class=" icon-star-empty"></i>
 More Products </a></div>
-</div>
-<div class="pagination-bar text-center">
-<nav aria-label="Page navigation " class="d-inline-b">
-<ul class="pagination">
-<li class="page-item active"><a class="page-link" href="#">1</a></li>
-<li class="page-item"><a class="page-link" href="#">2</a></li>
-<li class="page-item"><a class="page-link" href="#">3</a></li>
-<li class="page-item"><a class="page-link" href="#">4</a></li>
-<li class="page-item"><a class="page-link" href="#">...</a></li>
-<li class="page-item">
-<a class="page-link" href="#">Next</a>
-</li>
-</ul>
-</nav>
-</div>
-<!--/.pagination-bar -->
-
-<div class="post-promo text-center">
-<h2> Do you get anything for sell ? </h2>
-<h5>Sell your products online FOR FREE. It's easier than you think !</h5>
-<a href="#" class="btn btn-lg btn-border btn-post btn-success">Post a Free Ad </a>
 </div>
 <!--/.post-promo-->
 </div>

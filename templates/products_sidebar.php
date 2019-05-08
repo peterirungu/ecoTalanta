@@ -1,8 +1,8 @@
-<div class="col-md-3 page-sidebar mobile-filter-sidebar">
-<div style="position: sticky; top: 29px">
-    <aside>
+<div class="col-md-3 page-sidebar mobile-filter-sidebar" style="position: sticky; top: 90px">
+<div style="position: sticky; top: 90px">
+    <aside style="position: sticky; top: 90px">
     <div class="sidebar-modern-inner">
-        <div class="card sidebar-card card-contact-seller">            
+            <div class="card sidebar-card card-contact-seller">            
                 <div class="card-content user-info">
                     <div class="card-body text-center">                    
                         <div class="post-promo text-center">
@@ -14,84 +14,21 @@
                 </div>
             </div>
             <div class="card sidebar-card card-contact-seller">
-                <div class="card-header">Registered sellers <span class="badge badge-secondary"></span>
-                </div>
-                <div class="card-content user-info">
-                    <div class="card-body text-center">
-                        <ul class="list-unstyled list-user-list long-list-user">
-
-                            <li><a><img alt="img" src="images/users/1.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/2.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/3.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/4.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/5.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/6.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/7.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/8.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/9.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/10.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/11.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/12.jpg"
-                                        class="img-circle   "></a></li>
-
-                            <li><a><img alt="img" src="images/users/13.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/14.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/15.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/16.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/5.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/6.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/7.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/8.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/9.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/10.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/11.jpg"
-                                        class="img-circle   "></a></li>
-                            <li><a><img alt="img" src="images/users/12.jpg"
-                                        class="img-circle   "></a></li>
-                        </ul>
-
-
+                <div class="page-bottom-info">
+                    <div class="page-bottom-info-inner">
+                        <div class="page-bottom-info-content text-center">
+                            <h1>If you have any questions, comments or concerns, please call us at (+254) 708-154387</h1>
+                            <a class="btn  btn-md btn-primary-dark" href="tel:+254708154387">
+                            <i class="icon-mobile"></i> <span class="hide-xs color50">Call Now:</span> (+254) 708-154387 
+                        </a>              
+                        </div>
                     </div>
-                </div>
+                </div>                
             </div>
-            <div class="card sidebar-card">
-                <div class="card-header">Safety Tips for Buyers</div>
-                <div class="card-content">
-                    <div class="card-body text-left">
-                        <ul class="list-check">
-                            <li> Meet seller at a public place</li>
-                            <li> Check the item before you buy</li>
-                            <li> Pay only after collecting the item</li>
-                        </ul>
-                        <p><a class="pull-right" href="#"> Know more <i
-                                class="fa fa-angle-double-right"></i> </a></p>
-                    </div>
-                </div>
-            </div>
+            <!--  -->
             <!--/.categories-list-->
-    <!--/.list-filter-->
-    <div style="clear:both"></div>
+        <!--/.list-filter-->
+        <div style="clear:both"></div>
     </div>
     <!--/.categories-list-->
     </aside>
