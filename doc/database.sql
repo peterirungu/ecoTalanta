@@ -1,3 +1,5 @@
+
+---seller table
 CREATE TABLE `ecotalanta`.`seller` (
  `seller_id` INT(11) NOT NULL AUTO_INCREMENT , 
  `first_name` VARCHAR(50) NOT NULL , 

@@ -3,13 +3,12 @@
 	include 'nav.php'
 ?>
 <!-- ========================================= -->
-
 <div class="intro-inner">
     <div class="about-intro" style="background:url(images/bg2.jpg) no-repeat center;background-size:cover;">
         <div class="dtable hw100">
             <div class="dtable-cell hw100">
                 <div class="container text-center">
-                    <h1 class="intro-title animated fadeInDown"> Conserving the Environment </h1>
+                    <h1 class="intro-title animated fadeInDown"> Conserving the Environment Promoting green economy </h1>
                 </div>
             </div>
         </div>
@@ -22,7 +21,7 @@
         <div class="section-content">
             <div class="row ">
                 <div class="col-xl-12">
-                    <h1 class="text-center title-1"> What Makes Us Special </h1>
+                    <h1 class="text-center title-1"> What Makes Us Special and the best</h1>
                     <hr class="center-block small text-hr">
                 </div>
                 <div class="col-sm-6">
@@ -90,4 +89,7 @@
 </div>
 
 <!-- ======================================================= -->
-<?php include 'footer.php' ?>
+<?php 
+include 'templates/page_bottom_content.php';
+include 'footer.php' 
+?>

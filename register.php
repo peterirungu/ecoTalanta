@@ -20,7 +20,7 @@
                     <h2 class="title-2"><i class="icon-user-add" style="color: #138a72; font-size: large;"></i> Create your account Now.., Its free </h2>
                     <div class="row">
                         <div class="col-sm-12">
-                            <form class="form-horizontal" method="Post" action="">
+                            <form class="form-horizontal" method="Post" action="register.php">
                                 <fieldset>  
                                     <!-- Text input-->
                                     <div class="form-group  row required">
@@ -103,10 +103,11 @@
                                                 </div>
                                             </div>
                                             <div style="clear:both"></div>
-                                            <button class="btn btn-primary" name="btn_register" type="submit">Register</button>
+                                            <button class="btn btn-primary" name="submit" type="submit">Register</button>
                                         </div>
                                     </div>
                                 </fieldset>
+                                <?php include 'phpquery/register_seller.php' ?>
                             </form>                            
                         </div>
                     </div>
