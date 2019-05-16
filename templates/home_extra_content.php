@@ -10,7 +10,7 @@
                                 <i class="icon  icon-group"></i>
                             </div>
                             <div class="iconbox-wrap-content">
-                                <h5><span>2200+</span></h5>
+                                <h5><span>500+</span></h5>
 
                                 <div class="iconbox-wrap-text">Trusted Seller</div>
                             </div>
@@ -61,7 +61,7 @@
                                 <i class="icon icon-facebook"></i>
                             </div>
                             <div class="iconbox-wrap-content">
-                                <h5><span>5000+</span></h5>
+                                <h5><span>2500+</span></h5>
 
                                 <div class="iconbox-wrap-text"> Facebook Fans</div>
                             </div>
@@ -70,9 +70,7 @@
                     </div>
                     <!--/.iconbox-wrap-->
                 </div>
-
             </div>
-
         </div>
     </div>
 </div>

@@ -20,6 +20,8 @@
 	include 'form_modals/contact_seller_modal.php'
 ?>
 </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+
 <!-- /.wrapper -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery/jquery-3.3.1.min.js">\x3C/script>')</script>
@@ -78,8 +80,17 @@
     $("#input-upload-img1").fileinput();
     $("#input-upload-img2").fileinput();
     $("#input-upload-img3").fileinput();
-    $("#input-upload-img4").fileinput();
+    $("#profile_picture").fileinput();
     $("#input-upload-img5").fileinput();
 </script>
+
+ <script>
+        paceOptions = {
+            elements: true
+        };
+    </script>
+    <script src="assets/js/pace.min.js"></script>
+    <script src="assets/plugins/modernizr/modernizr-custom.js"></script>
+
 </body>
 </html>

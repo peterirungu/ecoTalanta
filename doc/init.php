@@ -32,18 +32,22 @@ $tseller = "CREATE TABLE `ecotalanta`.`seller` (
  `seller_id` INT(11) NOT NULL AUTO_INCREMENT , 
  `first_name` VARCHAR(50) NOT NULL , 
  `last_name` VARCHAR(50) NOT NULL , 
- `nick_name` VARCHAR(50) NOT NULL , 
- `phone_number` VARCHAR(15) NOT NULL ,
- `gender` VARCHAR(15) NOT NULL , 
+ `gender` VARCHAR(15) NOT NULL ,
  `email` VARCHAR(50) NOT NULL ,
- `about_seller` TEXT NOT NULL ,
+ `about_seller` TEXT ,
  `profile_picture` VARCHAR(100) NOT NULL ,
- `other_details` VARCHAR(255) NOT NULL ,
- `is_active` VARCHAR(50) NOT NULL ,
+
+
+ `business_name` VARCHAR(100) , 
+ `phone_number` VARCHAR(15) ,
+ `location` VARCHAR(100) ,
+
+ `is_active` VARCHAR(50) DEFAULT 'true' ,
+
  `date_created` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
  `date_modified` TIMESTAMP on update CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
- `location` VARCHAR(100) NOT NULL ,
- `business_name` VARCHAR(100) NOT NULL ,
+
+
  `password` VARCHAR(20) NOT NULL,
   PRIMARY KEY (`seller_id`)) ENGINE = InnoDB COMMENT = 'seller details';";
 
@@ -55,6 +59,7 @@ if ($conn->query($tseller) === TRUE) {
 
 $tproduct = "CREATE TABLE `ecotalanta`.`products` ( 
 	`product_id` INT NOT NULL AUTO_INCREMENT , 
+    `seller_id` INT NOT NULL, 
 	`product_title` VARCHAR(80) NOT NULL , 
 	`product_description` VARCHAR(255) NOT NULL , 
 	`product_price` REAL NOT NULL , 
