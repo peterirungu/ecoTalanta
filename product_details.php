@@ -44,7 +44,7 @@
                                 </div>                               
                             </div>
                             <div class="content-footer text-center">
-                            	<a class="btn  btn-info" data-toggle="modal" href="#contactAdvertiser">
+                            	<a class="btn  btn-info" data-toggle="modal" href="#registerfailed">
                             		<i class=" icon-mail-2"></i> Place an Order </a> <a class="btn  btn-success">
                             		<i class=" icon-phone-1"></i> 01680 531 352 </a>
                             </div>

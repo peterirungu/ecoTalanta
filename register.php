@@ -1,3 +1,4 @@
+<?php    include 'phpquery/register_seller.php'?>
 <?php
 	include 'header.php';
 	include 'nav.php'
@@ -20,7 +21,7 @@
                     <div class="row">
                         <div class="col-sm-12">
 
-                            <form class="form-horizontal" action="phpquery/register_seller.php" method="post" enctype="multipart/form-data">
+                            <form class="form-horizontal" action="register.php" method="post" enctype="multipart/form-data">
                                
                                 <div class="alert">
                                 <a class="close" data-dismiss="alert"><i class="icon-remove"></i></a>
@@ -163,6 +164,7 @@
     <!-- /.container -->
 </div>
 <!-- /.main-container -->
+
 <?php
 	include 'templates/home_extra_content.php';
     include 'templates/page_bottom_contact.php';

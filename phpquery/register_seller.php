@@ -26,15 +26,12 @@
         $result = mysqli_query($con, $query);
 
         if($result==1)
-        {     
-        header("location: ../register.php"); 
-        $message = 'submitted successfully!' ; 
-        
+        {   
+        //echo '$(function() { $( "#registersuccess" ).dialog();});'        
         }
         else {          
 
-        		header("location: ../register.php"); 
-        		$message = 'Failed!' ;
+        		//echo '$(function() { $( "#registerfailed" ).dialog();});' 
              }
     }
 ?>

@@ -14,10 +14,11 @@
 </footer> -->
 <!-- /.footer -->
 
-<!-- -------modals------------- -->
+<!-- -------modals------------- --> 
 <?php
 	include 'form_modals/report_product.php';
-	include 'form_modals/contact_seller_modal.php'
+	include 'form_modals/contact_seller_modal.php';
+    include 'form_modals/register_failed_modal.php'
 ?>
 </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
