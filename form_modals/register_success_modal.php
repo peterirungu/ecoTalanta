@@ -12,6 +12,7 @@
 				<p class="text-center">You have been registered successfully.</p>
 			</div>
 			<div class="modal-footer">
+				
 				<button class="btn btn-success btn-block" data-dismiss="modal">Continue to login</button>
 			</div>
 		</div>

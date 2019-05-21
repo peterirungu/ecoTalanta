@@ -1,6 +1,6 @@
-<div class="col-md-3 page-sidebar mobile-filter-sidebar" style="position: sticky; top: 90px">
-<div style="position: sticky; top: 90px">
-    <aside style="position: sticky; top: 90px">
+<div class="col-md-3 page-sidebar mobile-filter-sidebar">
+<div>
+    <aside>
     <div class="sidebar-modern-inner">
             <div class="card sidebar-card card-contact-seller">            
                 <div class="card-content user-info">

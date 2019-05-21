@@ -1,8 +1,36 @@
 <?php
+    session_start(); // Starting Session 
+    $error = ''; // Variable To Store Error Message 
+    if (isset($_POST['submit'])) { 
+      if (empty($_POST['username']) || empty($_POST['password'])) { 
+        $error = "Username or Password is invalid"; 
+      } 
+      else{ 
+        // Define $username and $password 
+        $username = $_POST['username']; 
+        $password = $_POST['password']; 
+        // mysqli_connect() function opens a new connection to the MySQL server. 
+        $conn = mysqli_connect("localhost", "root", "root", "ecotalanta"); 
+        // SQL query to fetch information of registerd users and finds user match. 
+        $query = "SELECT email, password from seller where username=? AND password=? LIMIT 1"; 
+        // To protect MySQL injection for Security purpose 
+        $stmt = $conn->prepare($query); 
+        $stmt->bind_param("ss", $username, $password); 
+        $stmt->execute(); 
+        $stmt->bind_result($username, $password); 
+        $stmt->store_result(); 
+        if($stmt->fetch()) //fetching the contents of the row { 
+          $_SESSION['login_user'] = $username; // Initializing Session 
+        header("location: seller_account_home.php"); // Redirecting To Profile Page 
+      } 
+      mysqli_close($conn); // Closing Connection 
+    } 
+?>
+
+<?php
 	include 'header.php';
 	include 'nav.php'
 ?>
-
 <div class="search-row-wrapper" style="background-image: url(images/bg.jpg)">
 	<div class="inner">
 		<div class="container ">
@@ -12,7 +40,6 @@
 		</div>
 	</div>
 </div>
-
 <div class="main-container">
     <div class="container">
         <div class="row">
@@ -26,13 +53,16 @@
                         </h2>
                     </div>
                     <div class="card-body">
-                        <form role="form">
+                        <div style = "font-size:11px; color:#cc0000; margin-top:10px">
+                            <?php echo $error; ?>                                
+                        </div>
+                        <form role="form" action="" method="post">
                             <div class="form-group">
                                 <label for="sender-email" class="control-label">Username:</label>
 
                                 <div class="input-icon"><i class="icon-user fa"></i>
-                                    <input id="sender-email" type="text" placeholder="Username"
-                                           class="form-control email">
+                                    <input id="username" name="username" type="text" placeholder="Username"
+                                           class="form-control email" required="">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -40,11 +70,11 @@
 
                                 <div class="input-icon"><i class="icon-lock fa"></i>
                                     <input type="password" class="form-control" placeholder="Password"
-                                           id="user-pass">
+                                           id="password" name="password" required="">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <a href="seller_account_home.php" class="btn btn-primary  btn-block">Login</a>
+                                <button class="btn btn-primary  btn-block" type="submit" name="submit">Login</button>
                             </div>                           
 
                         </form>
@@ -75,6 +105,7 @@
     </div>
 </div>
 <!-- /.main-container -->
-
-
-<?php include 'footer.php' ?>
+<?php 
+    include 'templates/page_bottom_contact.php';
+    include 'footer.php' 
+?>

@@ -24,12 +24,11 @@
 					    </a>
 					</li>
 				</ul>
-				<ul class="nav navbar-nav ml-auto navbar-right">
-                    <li class="nav-item"><a href="aboutus.php" class="nav-link"><i class="fas fa-address-card"></i> About Us</a>
-                    </li>
+				<ul class="nav navbar-nav ml-auto navbar-right">                   
 					<li class="nav-item"><a href="products.php" class="nav-link"><i class="icon-th-thumb"></i> All Products</a>
 					</li>
-					
+					 <li class="nav-item"><a href="aboutus.php" class="nav-link"><i class="fas fa-address-card"></i> About Us</a>
+                    </li>
 					<li class="dropdown no-arrow nav-item">
 						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><span>Peter Mwangi</span> 
 							<i class="icon-user fa"></i> <i class=" icon-down-open-big fa"></i>

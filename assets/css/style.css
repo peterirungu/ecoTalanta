@@ -3071,10 +3071,10 @@ nav.slider-nav a {
   position: relative; }
 
 .photo-count {
-  background: #ccc;
-  border: 0 none;
-  border-radius: 2px;
-  font-size: 12px;
+  background: #fff;
+  border: 1px solid #222333;
+  border-radius: 4px;
+  font-size: 14px;
   opacity: 0.75;
   padding: 0 3px;
   position: absolute;
@@ -3207,7 +3207,7 @@ nav.slider-nav a {
   height: auto !important; }
 
 .category-list.make-grid .item-list {
-  width: 50%;
+  width: 33%;
   float: left;
   clear: none;
   border-right: solid 1px #ddd; }
@@ -7379,7 +7379,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     top: 3px;
   }
   .modal-confirm.modal-dialog {
-    margin-top: 180px;
+    margin-top: 50px;
   }
     .modal-confirm .btn {
         color: #fff;
@@ -7455,7 +7455,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     top: 3px;
   }
   .modal-confirm_e.modal-dialog {
-    margin-top: 180px;
+    margin-top: 50px;
   }
     .modal-confirm_e .btn {
     color: #fff;

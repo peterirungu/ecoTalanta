@@ -1,4 +1,3 @@
-<?php    include 'phpquery/register_seller.php'?>
 <?php
 	include 'header.php';
 	include 'nav.php'
@@ -20,13 +19,7 @@
                     <h2 class="title-2"><i class="icon-user-add" style="color: #138a72; font-size: large;"></i> Create your account Now.., Its free </h2>
                     <div class="row">
                         <div class="col-sm-12">
-
-                            <form class="form-horizontal" action="register.php" method="post" enctype="multipart/form-data">
-                               
-                                <div class="alert">
-                                <a class="close" data-dismiss="alert"><i class="icon-remove"></i></a>
-                                <strong><?php echo $message; ?></strong>
-                                </div>
+                            <form class="form-horizontal" action="phpquery/register_seller.php" method="post" enctype="multipart/form-data">
                                 <fieldset>  
                                     <div class="form-group row">
                                         <label class="col-sm-4 col-form-label" for="textarea">Profile Picture</label>

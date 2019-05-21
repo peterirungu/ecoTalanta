@@ -25,12 +25,11 @@
 					    </a>
 					</li>
 				</ul>
-				<ul class="nav navbar-nav ml-auto navbar-right">
-                    <li class="nav-item"><a href="aboutus.php" class="nav-link"><i class="fas fa-address-card"></i> About Us</a>
-                    </li>
+				<ul class="nav navbar-nav ml-auto navbar-right">                    
 					<li class="nav-item"><a href="products.php" class="nav-link"><i class="icon-th-thumb"></i> All Products</a>
 					</li>
-					
+					<li class="nav-item"><a href="aboutus.php" class="nav-link"><i class="fas fa-address-card"></i> About Us</a>
+                    </li>
 					<li class="nav-item"><a href="login.php" class="nav-link"><i class="fas fa-sign-in-alt"></i> Login</a>
 					</li>
 					<li class="postadd nav-item"><a class="btn btn-block   btn-border btn-post btn-info nav-link" href="register.php">Create Free Account</a>
@@ -38,11 +37,9 @@
 					<li class="dropdown  lang-menu nav-item">
 						<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
 							<span class="lang-title">EN</span>
-
 						</button>
 						<ul class="dropdown-menu dropdown-menu-right user-menu" role="menu">
 							<li class="dropdown-item"><a class="active">
-
 								<span class="lang-name">English</span></a>
 							</li>    							
 						</ul>

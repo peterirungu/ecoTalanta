@@ -27,11 +27,11 @@
 
         if($result==1)
         {   
-        //echo '$(function() { $( "#registersuccess" ).dialog();});'        
+            
+           header("Location: ../seller_registration_success.php");       
         }
         else {          
-
-        		//echo '$(function() { $( "#registerfailed" ).dialog();});' 
+                header("Location: ../seller_registration_failed.php");
              }
     }
 ?>

@@ -3,8 +3,7 @@
         <div class="row">  
             <!-- -----sidebar Here-->
             <?php include 'templates/products_sidebar.php' ?>
-            <!-- -----sidebar Here-->       
-
+            <!-- -----sidebar Here-->
             <div class="col-md-6 page-content col-thin-left">
                 <div class="category-list make-grid">
                     <!--/.tab-box-->
