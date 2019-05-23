@@ -28,8 +28,7 @@
         $result = mysqli_query($con, $query);
 
         if($result==1)
-        {   
-            
+        {              
             
             echo "<script type='text/javascript'>
                     $(document).ready(function(){
